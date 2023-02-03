@@ -5,7 +5,13 @@
     "target": "es5",
     "module": "commonjs",
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
   },
   "include": [
     "./src/**/*"
